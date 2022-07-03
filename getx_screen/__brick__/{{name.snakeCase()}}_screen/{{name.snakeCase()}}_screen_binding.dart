@@ -4,6 +4,6 @@ import '{{name.snakeCase()}}_screen_controller.dart';
 class {{name.pascalCase()}}ScreenBinding implements Bindings {
   @override
   void dependencies() {
-    Get.put({{name.pascalCase()}}ScreenController();
+    Get.put({{name.pascalCase()}}ScreenController());
   }
 }
