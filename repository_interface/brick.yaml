@@ -21,8 +21,8 @@ environment:
 #  * an optional prompt phrase used when asking for the variable
 #  * a list of values (enums only)
 vars:
-  name:
+  model:
     type: string
-    description: Your name
-    default: Dash
-    prompt: What is your name?
+    description: model controlled by repository
+    default: model
+    prompt: What model will you use for this repository?
