@@ -2,7 +2,7 @@ import '../models/{{model.snakeCase()}}.dart';
 
 abstract class {{model.pascalCase()}}Repository{
 
-  // Future<String> createWithId({{model.pascalCase}} {{model.camelCase()}}, String id);
+  // Future<String> createWithId({{model.pascalCase()}} {{model.camelCase()}}, String id);
 
   // Future<String> create({{model.pascalCase()}} {{model.camelCase()}});
 
@@ -13,7 +13,7 @@ abstract class {{model.pascalCase()}}Repository{
 
   // Future<List<{{model.pascalCase()}}>> readAll();
 
-  // Future<void> updateById({{model.pascalCase}} {{model.camelCase()}}, String id);
+  // Future<void> updateById({{model.pascalCase()}} {{model.camelCase()}}, String id);
 
   // Future<void> deleteById(String id);
 
