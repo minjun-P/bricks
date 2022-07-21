@@ -1,7 +1,8 @@
 import 'package:get/get.dart';
 import 'package:flutter/material.dart';
 
-
+// ignore: unused_import
+import '{{name.snakeCase()}}_screen_controller.dart';
 
 class {{name.pascalCase()}}Screen extends GetView<{{name.pascalCase()}}ScreenController> {
   const {{name.pascalCase()}}Screen({Key? key}) : super(key: key);
@@ -14,8 +15,8 @@ class {{name.pascalCase()}}Screen extends GetView<{{name.pascalCase()}}ScreenCon
   }
 }
 
-GetPage(
-          name: ,
-          page: () => const {{name.pascalCase()}}Screen(),
-          binding: {{name.pascalCase()}}ScreenBinding(),
-        )
+// GetPage(
+//   name: ,
+//   page: () => const {{name.pascalCase()}}Screen(),
+//   binding: {{name.pascalCase()}}ScreenBinding(),
+// )
