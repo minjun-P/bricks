@@ -10,7 +10,7 @@ class {{name.pascalCase()}}Screen extends GetView<{{name.pascalCase()}}ScreenCon
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Text('{{name.snakeCase()}}')
+      body: Center(child:Text('{{name.snakeCase()}}')),
     );
   }
 }
